@@ -1,0 +1,17 @@
+@import "./pages/start.scss";
+@import "./components/buttons.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p,
+a {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

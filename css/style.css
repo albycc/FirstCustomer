@@ -1,0 +1,134 @@
+.header-style {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(127, 240, 170);
+  height: 130px;
+}
+.header-style p {
+  font-size: 2em;
+  margin: auto;
+  color: white;
+}
+
+.center-page {
+  width: 100%;
+  margin: auto;
+}
+
+.text-content {
+  display: flex;
+  margin-top: 5em;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.text-content p {
+  margin: 1em 0;
+  font-size: 1.3em;
+}
+
+.person-container {
+  display: flex;
+  justify-content: center;
+}
+.person-container .person-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.person-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 250px;
+  margin: 4em;
+  background-color: white;
+  font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
+}
+.person-card .person-name {
+  font-size: 1.4em;
+}
+
+.modal-background {
+  position: fixed;
+  top: 0;
+  background-color: rgba(159, 159, 159, 0.4);
+  width: 100%;
+  height: 100%;
+}
+.modal-background .modal-window {
+  position: relative;
+  top: 20%;
+  margin: auto;
+  width: 80%;
+  height: 60%;
+  background-color: white;
+  border-radius: 15px;
+}
+.modal-background .modal-window .modal-header button {
+  font-size: 2em;
+  border: none;
+  background-color: rgba(159, 159, 159, 0);
+  cursor: pointer;
+  margin: 0 0.2em;
+}
+.modal-background .modal-window .modal-personinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.modal-background .modal-window .modal-personinfo img {
+  width: 250px;
+  height: 250px;
+}
+.modal-background .modal-window .modal-personinfo .personinfo-text {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.modal-background .modal-window .modal-personinfo .personinfo-text P {
+  font-size: 1.5em;
+}
+.modal-background .modal-window .modal-personinfo .personinfo-text a {
+  font-size: 1.2em;
+}
+.modal-background .modal-window .modal-contribute {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4em;
+}
+.modal-background .modal-window .modal-contribute p {
+  font-weight: 700;
+  margin: 1em 0;
+}
+
+.link-button {
+  padding: 1em;
+  border-radius: 5px;
+  background-color: greenyellow;
+  color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p,
+a {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
